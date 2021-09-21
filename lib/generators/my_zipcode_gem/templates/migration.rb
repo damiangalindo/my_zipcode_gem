@@ -1,4 +1,4 @@
-class CreateMyZipcodeGemModels < ActiveRecord::Migration
+class CreateMyZipcodeGemModels < ActiveRecord::Migration[4.1]
   def self.up
     # Zipcodes Table
     create_table :zipcodes do |t|
